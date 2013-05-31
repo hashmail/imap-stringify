@@ -1,0 +1,26 @@
+{
+  "name": "imap-stringify",
+  "version": "0.0.0",
+  "description": "A stringifier for IMAP line based commands",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashmail/imap-stringify.git"
+  },
+  "keywords": [
+    "IMAP",
+    "email",
+    "e-mail",
+    "server",
+    "client"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  },
+  "dependencies": {
+    "readable-stream": "~1.0.2"
+  }
+}
